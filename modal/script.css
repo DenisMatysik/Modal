@@ -1,0 +1,132 @@
+body{
+    margin: 20px;
+  }
+  
+  h1{
+    padding:20px;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    font-size: 52px;
+    justify-content: center;
+    height: max-content;
+    border-radius: 10px;
+  }
+  
+  .allBtn{
+    border-radius: 10px;
+    width: max-content;
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .allBtn:hover,
+  .allBtn:hover
+  {
+    color: #007bff;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .modal {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+  position: fixed; 
+  z-index: 1; /* Сидеть на вершине */
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  color: white;
+  background-color: rgba(0, 0, 0, 0.83); 
+  }
+  
+  .modalTitle{
+    margin: 10px;
+    height: max-content;
+  }
+  
+  .modalText{
+    height: max-content;
+    margin: 10px;
+  }
+
+  .none{
+      display: none;
+  }
+
+  .modalSection{
+      background-color: darkblue;
+      padding: 3rem;
+      display: flex;
+      border-radius: 10px;
+      flex-direction: column;
+  }
+
+
+  .btnCloseModal, .btnSaveModal{
+    border-radius: 10px;
+    width: max-content;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 32px;
+    background-color: red;
+    border-color: red;
+  }
+  
+  .btnCloseModal:hover,
+  .btnSaveModal:hover
+  {
+    color: red;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btnSaveModal{
+    background-color: green;
+    border-color: green;
+  }
+
+  .btnSaveModal:hover{
+    color: green;
+  }
+
+  .modalTitleInput{
+    font-size: 20px;
+    color: darkblue;
+    margin: 10px;
+    height: max-content;
+    width: 50%;
+  }
+
+  .modalTextInput{
+    font-size: 17px;
+    color: darkblue;
+    height: max-content;
+    margin: 10px;
+    width: 80%;
+  }
+
+  .checkModalWork{
+    background-color: darkblue;
+      padding: 3rem;
+      display: flex;
+      border-radius: 10px;
+      flex-direction: column;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+
+  }
